@@ -2,11 +2,23 @@
  * @Author: 一尾流莺
  * @Description:更新日志
  * @Date: 2021-09-13 16:19:04
- * @LastEditTime: 2021-09-14 09:46:09
- * @FilePath: \vue-press\docs\version\README.md
+ * @LastEditTime: 2021-09-14 17:14:03
+ * @FilePath: \warblerjs-guide\docs\version\README.md
 -->
 
 # 更新日志
+
+
+## 2021-09-14
+
+#### 版本号 1.0.4
+
+#### 更新内容
+
+- 新增 `toLowerFirstLetter` 方法
+- 新增 `toUpperFirstLetter` 方法
+- 新增 `dayOfYear` 方法
+- 新增 `loadScript` 方法
 
 ## 2021-09-13
 
