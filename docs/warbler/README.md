@@ -1,13 +1,12 @@
 <!--
  * @Author: 一尾流莺
- * @Description:
- * @Date: 2021-09-13 16:45:44
- * @LastEditTime: 2021-09-14 10:22:13
+ * @Description:关于作者
+ * @Date: 2021-09-14 09:56:34
+ * @LastEditTime: 2021-09-14 10:50:30
  * @FilePath: \warblerjs-guide\docs\warbler\README.md
 -->
 
-
-# 一尾流莺
+## 一尾流莺
 
 👉👉 [掘金](https://juejin.cn/user/4099422807393901/posts)
 
