@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-09-13 18:40:49
- * @FilePath: \vue-press\docs\guide\sidebar.js
+ * @LastEditTime: 2021-09-14 17:12:20
+ * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
 module.exports = [
@@ -21,13 +21,14 @@ module.exports = [
     title: '布尔值',
     collapsable: true,
     children: [
-      ['boolean/randomBoolean', '获得一个随机的布尔值'],
+      ['date/dayOfYear', '获取指定日期是所在年份的第几天'],
     ],
   },
   {
     title: '日期',
     collapsable: true,
     children: [
+      ['string/reverseString', '反转字符串'],
     ],
   },
 
@@ -42,6 +43,7 @@ module.exports = [
     collapsable: true,
     children: [
       ['methods/imitateDelay', '模拟延迟'],
+      ['methods/loadScript', '异步加载script脚本'],
     ],
   },
   {
@@ -63,6 +65,8 @@ module.exports = [
     collapsable: true,
     children: [
       ['string/reverseString', '反转字符串'],
+      ['string/toLowerFirstLetter', '将字符串的首字母转换成小写字母'],
+      ['string/toUpperFirstLetter', '将字符串的首字母转换成大写字母'],
     ],
   },
 ];
