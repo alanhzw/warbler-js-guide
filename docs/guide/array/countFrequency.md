@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:计算数组中元素的出现次数
  * @Date: 2021-09-15 09:56:21
- * @LastEditTime: 2021-09-15 10:31:04
+ * @LastEditTime: 2021-09-15 10:37:46
  * @FilePath: \warblerjs-guide\docs\guide\array\countFrequency.md
 -->
 # 计算数组中元素的出现次数
@@ -32,7 +32,17 @@ const countFrequency = (arr, value) => arr.reduce((pre, cur) => (cur === value ?
 
 ```js
 import { countFrequency } from 'warbler-js'
-  const fruits = ['apple', 'mango', 'orange', 'apple', 'pineapple', 'pineapple', 'peach', 'mango', 'apple'];
-  const result = countFrequency(fruits,'apple')
-  console.log(result) //=> 3
+const fruits = [
+  'apple',
+  'mango',
+  'orange',
+  'apple',
+  'pineapple',
+  'pineapple',
+  'peach',
+  'mango',
+  'apple',
+];
+const result = countFrequency(fruits,'apple')
+console.log(result) //=> 3
 ```
