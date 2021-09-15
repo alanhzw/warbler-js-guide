@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:根据对象的键值在数组中查找对象
  * @Date: 2021-09-13 18:00:49
- * @LastEditTime: 2021-09-13 18:29:02
- * @FilePath: \vue-press\docs\guide\array\findObjectInArray.md
+ * @LastEditTime: 2021-09-15 10:20:24
+ * @FilePath: \warblerjs-guide\docs\guide\array\findObjectInArray.md
 -->
 
 # 根据对象的键值在数组中查找对象
@@ -18,7 +18,7 @@ const result = findObjectInArray(arr, key, value);
 
 - `arr` (**Array**) ： 待查找的目标数组。
 - `key` (**String**) ： 需要查找的对象的 `key` 。
-- `value` (**String**) ： 需要查找的对象的 `value` 。
+- `value` (**String | number**) ： 需要查找的对象的 `value` 。
 
 ## 返回值
 
@@ -34,11 +34,11 @@ const findObjectInArray = (arr, key, value) => arr.find((obj) => obj[key] === va
 
 ```js
 import { findObjectInArray } from 'warbler-js';
-let fruits = [
+const fruits = [
   { name: 'Bananas', quantity: 5 },
   { name: 'Apples', quantity: 10 },
   { name: 'Grapes', quantity: 2 },
 ];
-let result = findObjectInArray(fruits, 'name', 'Apples');
+const result = findObjectInArray(fruits, 'name', 'Apples');
 console.log(result); //=> {name: 'Apples', quantity: 10}
 ```
