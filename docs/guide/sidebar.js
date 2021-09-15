@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-09-15 11:17:57
+ * @LastEditTime: 2021-09-15 11:19:30
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
@@ -57,6 +57,7 @@ module.exports = [
     children: [
       ['number/getAverage', '求平均值'],
       ['number/isEvenNumber', '判断奇偶'],
+      ['number/isDivisible', '判断数字是否可以整除'],
     ],
   },
   {
