@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:删除数组中的重复元素
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-13 18:21:42
- * @FilePath: \vue-press\docs\guide\array\arrWithoutDupli.md
+ * @LastEditTime: 2021-09-15 10:39:01
+ * @FilePath: \warblerjs-guide\docs\guide\array\arrWithoutDupli.md
 -->
 
 # 删除数组中的重复元素
@@ -32,7 +32,6 @@ const arrWithoutDupli = (arr) => [...new Set(arr)];
 
 ```js
 import { arrWithoutDupli } from 'warbler-js';
-
 const fruits = [
   'apple',
   'mango',
@@ -43,8 +42,6 @@ const fruits = [
   'peach',
   'mango',
 ];
-
 const result = arrWithoutDupli(fruits);
-
 console.log(result); //=> ['apple', 'mango', 'orange', 'pineapple', 'peach']
 ```
