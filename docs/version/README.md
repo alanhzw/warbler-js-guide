@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:更新日志
  * @Date: 2021-09-13 16:19:04
- * @LastEditTime: 2021-09-14 17:14:03
+ * @LastEditTime: 2021-09-15 11:18:28
  * @FilePath: \warblerjs-guide\docs\version\README.md
 -->
 
@@ -16,6 +16,9 @@
 
 - 新增 `countFrequency` 方法
 - 新增 `countObjFrequency` 方法
+- 新增 `filterUnique` 方法
+- 新增 `filterNoUnique` 方法
+
 
 
 ## 2021-09-14

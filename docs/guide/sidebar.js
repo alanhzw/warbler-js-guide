@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-09-15 10:33:02
+ * @LastEditTime: 2021-09-15 11:17:57
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
@@ -17,6 +17,8 @@ module.exports = [
       ['array/findObjectInArray', '根据对象的键值在数组中查找对象'],
       ['array/countFrequency', '计算数组中元素的出现次数'],
       ['array/countObjFrequency', '计算对象数组中某个属性值的出现次数'],
+      ['array/filterUnique', '过滤数组中的唯一值'],
+      ['array/filterNoUnique', '过滤数组中的非唯一值'],
     ],
   },
   {
