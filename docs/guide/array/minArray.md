@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:获取数组中指定个数的最小元素
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-16 17:58:25
+ * @LastEditTime: 2021-09-16 18:18:50
  * @FilePath: \warblerjs-guide\docs\guide\array\minArray.md
 -->
 
@@ -11,7 +11,7 @@
 ## 语法
 
 ```js
-const result = minArray(arr, n = 1)
+const result = minArray(arr, n)
 ```
 
 ## 参数
