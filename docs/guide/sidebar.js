@@ -19,6 +19,10 @@ module.exports = [
       ['array/countObjFrequency', '计算对象数组中某个属性值的出现次数'],
       ['array/filterUnique', '过滤数组中的唯一值'],
       ['array/filterNoUnique', '过滤数组中的非唯一值'],
+      ['array/averageBy', '计算对象数组指定健的平均值'],
+      ['array/isAllPass', '检测所有元素是否符合要求'],
+      ['array/maxArray', '获取数组中指定个数的最大元素'],
+      ['array/minArray', '获取数组中指定个数的最小元素'],
     ],
   },
   {
@@ -73,6 +77,7 @@ module.exports = [
       ['string/reverseString', '反转字符串'],
       ['string/toUpperFirstLetter', '将字符串的首字母转换成大写字母'],
       ['string/toLowerFirstLetter', '将字符串的首字母转换成小写字母'],
+      ['string/capitalizeWord', '将字符串中每个单词的首字母转为大写'],
 
     ],
   },

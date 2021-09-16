@@ -2,11 +2,25 @@
  * @Author: 一尾流莺
  * @Description:更新日志
  * @Date: 2021-09-13 16:19:04
- * @LastEditTime: 2021-09-16 14:19:28
+ * @LastEditTime: 2021-09-16 17:54:37
  * @FilePath: \warblerjs-guide\docs\version\README.md
 -->
 
 # 更新日志
+
+
+## 🕒 2021-09-16
+
+#### 🚀 版本号 1.0.6
+
+#### 📣 更新内容
+
+- 🔥 新增 `capitalizeWord` 方法
+- 🔥 新增 `averageBy` 方法
+- 🔥 新增 `isAllPass` 方法
+- 🔥 新增 `minArray` 方法
+- 🔥 新增 `maxArray` 方法
+
 
 ## 🕒 2021-09-15
 
