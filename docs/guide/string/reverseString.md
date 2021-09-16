@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:反转字符串
  * @Date: 2021-09-13 18:19:33
- * @LastEditTime: 2021-09-13 18:27:54
- * @FilePath: \vue-press\docs\guide\string\reverseString.md
+ * @LastEditTime: 2021-09-16 18:23:11
+ * @FilePath: \warblerjs-guide\docs\guide\string\reverseString.md
 -->
 
 # 反转字符串
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { reverseString } from 'warbler-js';
 const result = reverseString(str);
 ```
 

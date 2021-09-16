@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:模拟延迟
  * @Date: 2021-09-13 18:16:32
- * @LastEditTime: 2021-09-13 18:22:12
- * @FilePath: \vue-press\docs\guide\methods\imitateDelay.md
+ * @LastEditTime: 2021-09-16 18:22:30
+ * @FilePath: \warblerjs-guide\docs\guide\methods\imitateDelay.md
 -->
 
 # 模拟延迟
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { imitateDelay } from 'warbler-js';
 imitateDelay(timeout);
 ```
 

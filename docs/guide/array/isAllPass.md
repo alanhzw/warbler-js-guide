@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:检测所有元素是否符合要求
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-16 18:01:01
+ * @LastEditTime: 2021-09-16 18:21:51
  * @FilePath: \warblerjs-guide\docs\guide\array\isAllPass.md
 -->
 
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { isAllPass } from 'warbler-js'
 const result = isAllPass(arr, fn)
 ```
 

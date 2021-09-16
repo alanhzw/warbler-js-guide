@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:删除对象数组中的重复元素
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-13 18:21:26
- * @FilePath: \vue-press\docs\guide\array\arrObjectWithoutDupli.md
+ * @LastEditTime: 2021-09-16 18:20:26
+ * @FilePath: \warblerjs-guide\docs\guide\array\arrObjectWithoutDupli.md
 -->
 
 # 删除对象数组中的重复元素
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { arrObjectWithoutDupli } from 'warbler-js';
 const result = arrObjectWithoutDupli(arr，key)
 ```
 

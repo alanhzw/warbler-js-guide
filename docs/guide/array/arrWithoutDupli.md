@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:删除数组中的重复元素
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-15 10:39:01
+ * @LastEditTime: 2021-09-16 18:21:07
  * @FilePath: \warblerjs-guide\docs\guide\array\arrWithoutDupli.md
 -->
 
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { arrWithoutDupli } from 'warbler-js';
 const result = arrWithoutDupli(arr);
 ```
 

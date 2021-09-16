@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:判断奇偶
  * @Date: 2021-09-13 18:17:43
- * @LastEditTime: 2021-09-13 18:22:27
- * @FilePath: \vue-press\docs\guide\number\isEvenNumber.md
+ * @LastEditTime: 2021-09-16 18:22:57
+ * @FilePath: \warblerjs-guide\docs\guide\number\isEvenNumber.md
 -->
 
 # 判断奇偶
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { isEvenNumber } from 'warbler-js';
 const result = isEvenNumber(num);
 ```
 

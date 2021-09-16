@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:根据对象的键值在数组中查找对象
  * @Date: 2021-09-13 18:00:49
- * @LastEditTime: 2021-09-15 10:20:24
+ * @LastEditTime: 2021-09-16 18:21:45
  * @FilePath: \warblerjs-guide\docs\guide\array\findObjectInArray.md
 -->
 
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { findObjectInArray } from 'warbler-js';
 const result = findObjectInArray(arr, key, value);
 ```
 

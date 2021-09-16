@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:过滤数组中的非唯一值
  * @Date: 2021-09-15 11:17:10
- * @LastEditTime: 2021-09-15 11:17:10
+ * @LastEditTime: 2021-09-16 18:21:32
  * @FilePath: \warblerjs-guide\docs\guide\array\filterNoUnique.md
 -->
 # 过滤数组中的非唯一值
@@ -10,6 +10,7 @@
 ## 语法
 
 ```js
+import { filterNoUnique } from 'warbler-js'
 const result = filterNoUnique(arr)
 ```
 

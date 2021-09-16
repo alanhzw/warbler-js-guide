@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:计算数组中元素的出现次数
  * @Date: 2021-09-15 09:56:21
- * @LastEditTime: 2021-09-15 10:37:46
+ * @LastEditTime: 2021-09-16 18:21:20
  * @FilePath: \warblerjs-guide\docs\guide\array\countFrequency.md
 -->
 # 计算数组中元素的出现次数
@@ -10,6 +10,7 @@
 ## 语法
 
 ```js
+import { countFrequency } from 'warbler-js'
 const result = countFrequency(arr, value)
 ```
 

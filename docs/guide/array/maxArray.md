@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:获取数组中指定个数的最大元素
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-16 18:18:46
+ * @LastEditTime: 2021-09-16 18:21:58
  * @FilePath: \warblerjs-guide\docs\guide\array\maxArray.md
 -->
 
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { maxArray } from 'warbler-js'
 const result = maxArray(arr,n)
 ```
 

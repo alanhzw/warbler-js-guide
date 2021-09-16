@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:将字符串中每个单词的首字母转为大写
  * @Date: 2021-09-13 18:19:33
- * @LastEditTime: 2021-09-16 17:59:58
+ * @LastEditTime: 2021-09-16 18:23:06
  * @FilePath: \warblerjs-guide\docs\guide\string\capitalizeWord.md
 -->
 
@@ -12,6 +12,7 @@
 
 
 ```js
+import { capitalizeWord } from 'warbler-js'
 const result = capitalizeWord(str)
 
 ```

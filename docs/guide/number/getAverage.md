@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:求平均值
  * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2021-09-13 18:22:20
- * @FilePath: \vue-press\docs\guide\number\getAverage.md
+ * @LastEditTime: 2021-09-16 18:22:44
+ * @FilePath: \warblerjs-guide\docs\guide\number\getAverage.md
 -->
 
 # 求平均值
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { getAverage } from 'warbler-js';
 const result = getAverage(...args);
 ```
 

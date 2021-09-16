@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:计算对象数组中某个属性值的出现次数
  * @Date: 2021-09-15 09:57:10
- * @LastEditTime: 2021-09-15 10:31:40
+ * @LastEditTime: 2021-09-16 18:21:27
  * @FilePath: \warblerjs-guide\docs\guide\array\countObjFrequency.md
 -->
 # 计算对象数组中某个属性值的出现次数
@@ -10,6 +10,7 @@
 ## 语法
 
 ```js
+import { countObjFrequency } from 'warbler-js'
 const result = countObjFrequency(arr, key, value)
 ```
 

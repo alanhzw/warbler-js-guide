@@ -2,8 +2,8 @@
  * @Author: 一尾流莺
  * @Description:获取指定日期是所在年份的第几天
  * @Date: 2021-09-13 18:16:32
- * @LastEditTime: 2021-09-14 17:10:43
- * @FilePath: \warblerjs-guide\docs\guide\date\imitateDelay.md
+ * @LastEditTime: 2021-09-16 18:22:21
+ * @FilePath: \warblerjs-guide\docs\guide\date\dayOfYear.md
 -->
 
 # 获取指定日期是所在年份的第几天
@@ -12,6 +12,7 @@
 
 
 ```js
+import { dayOfYear } from 'warbler-js'
 const result = dayOfYear("2021,9,14")
 ```
 

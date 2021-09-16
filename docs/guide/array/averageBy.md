@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:计算对象数组指定健的平均值
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-16 17:57:16
+ * @LastEditTime: 2021-09-16 18:21:14
  * @FilePath: \warblerjs-guide\docs\guide\array\averageBy.md
 -->
 
@@ -11,6 +11,7 @@
 ## 语法
 
 ```js
+import { averageBy } from 'warbler-js'
 const result = averageBy(arr, key)
 ```
 

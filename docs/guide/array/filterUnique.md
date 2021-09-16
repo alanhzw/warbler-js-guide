@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:过滤数组中的唯一值
  * @Date: 2021-09-15 11:17:01
- * @LastEditTime: 2021-09-15 11:17:01
+ * @LastEditTime: 2021-09-16 18:21:38
  * @FilePath: \warblerjs-guide\docs\guide\array\filterUnique.md
 -->
 # 过滤数组中的唯一值
@@ -10,6 +10,7 @@
 ## 语法
 
 ```js
+import { filterUnique } from 'warbler-js'
 const result = filterUnique(arr)
 ```
 
