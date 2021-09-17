@@ -2,11 +2,31 @@
  * @Author: 一尾流莺
  * @Description:更新日志
  * @Date: 2021-09-13 16:19:04
- * @LastEditTime: 2021-09-16 17:54:37
+ * @LastEditTime: 2021-09-17 17:58:29
  * @FilePath: \warblerjs-guide\docs\version\README.md
 -->
 
 # 更新日志
+
+
+
+## 🕒 2021-09-17
+
+#### 🚀 版本号 1.0.7
+
+#### 📣 更新内容
+
+- 🔥 新增 `getCurrentUrl` 方法
+- 🔥 新增 `getTotal` 方法
+- 🔥 新增 `getTotalBy` 方法
+- 🔥 新增 `alphabetical` 方法
+- 🔥 新增 `arrDifference` 方法
+- 🔥 新增 `arrSimilarity` 方法
+- 🔥 新增 `getDifferenceFrom` 方法
+- 🔥 新增 `scrollToTop` 方法
+- 🔥 新增 `randomIntegerInRange` 方法
+- 🔥 新增 `randomInRange` 方法
+- 🔥 新增 `shuffleArr` 方法
 
 
 ## 🕒 2021-09-16

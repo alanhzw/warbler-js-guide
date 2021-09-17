@@ -1,3 +1,10 @@
+<!--
+ * @Author: 一尾流莺
+ * @Description:
+ * @Date: 2021-09-14 10:31:45
+ * @LastEditTime: 2021-09-17 17:56:27
+ * @FilePath: \warblerjs-guide\docs\guide\README.md
+-->
 ---
     sidebarDepth: 1
 ---
@@ -8,8 +15,11 @@
 ```js
 npm i --save warbler-js
 ```
+### 通过 CDN
+
+暂不支持 `CDN` 方式引入
 
 ## 什么是 warbler-js
 
-`warbler-js` 是一个 `JavaScript` 实用工具库。
+`warbler-js` 参考了优秀的 Lodash ，完成了一个轻量级的 `JavaScript` 实用工具库。
 

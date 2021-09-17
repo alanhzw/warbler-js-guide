@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-09-15 11:19:30
+ * @LastEditTime: 2021-09-17 18:14:25
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
@@ -21,8 +21,14 @@ module.exports = [
       ['array/filterNoUnique', '过滤数组中的非唯一值'],
       ['array/averageBy', '计算对象数组指定健的平均值'],
       ['array/isAllPass', '检测所有元素是否符合要求'],
-      ['array/maxArray', '获取数组中指定个数的最大元素'],
       ['array/minArray', '获取数组中指定个数的最小元素'],
+      ['array/maxArray', '获取数组中指定个数的最大元素'],
+      ['array/arrDifference', '获取两个数组之间不同的元素'],
+      ['array/arrSimilarity', '获取两个数组之间相同的元素'],
+      ['array/getDifferenceFrom', '获取数组二相对于数组一不同的元素'],
+      ['array/getTotal', '计算数组元素的总和'],
+      ['array/getTotalBy', '计算对象数组某个属性值的总和'],
+      ['array/shuffleArr', '随机化数组元素的顺序'],
     ],
   },
   {
@@ -52,6 +58,8 @@ module.exports = [
     children: [
       ['methods/imitateDelay', '模拟延迟'],
       ['methods/loadScript', '异步加载script脚本'],
+      ['methods/getCurrentUrl', '获取当前页面的URL'],
+      ['methods/scrollToTop', '滚动到页面顶部'],
 
     ],
   },
@@ -62,6 +70,9 @@ module.exports = [
       ['number/getAverage', '求平均值'],
       ['number/isEvenNumber', '判断奇偶'],
       ['number/isDivisible', '判断数字是否可以整除'],
+      ['number/randomInRange', '生成范围内的随机数'],
+      ['number/randomIntegerInRange', '生成范围内的随机整数'],
+
     ],
   },
   {
@@ -75,10 +86,10 @@ module.exports = [
     collapsable: true,
     children: [
       ['string/reverseString', '反转字符串'],
+      ['string/alphabetical', '将字符串按字母顺序排列'],
       ['string/toUpperFirstLetter', '将字符串的首字母转换成大写字母'],
       ['string/toLowerFirstLetter', '将字符串的首字母转换成小写字母'],
       ['string/capitalizeWord', '将字符串中每个单词的首字母转为大写'],
-
     ],
   },
 ];
