@@ -1,10 +1,3 @@
-<!--
- * @Author: 一尾流莺
- * @Description:
- * @Date: 2021-09-14 10:31:45
- * @LastEditTime: 2021-09-17 17:56:27
- * @FilePath: \warblerjs-guide\docs\guide\README.md
--->
 ---
     sidebarDepth: 1
 ---
