@@ -1,11 +1,6 @@
-<!--
- * @Author: 一尾流莺
- * @Description:更新日志
- * @Date: 2021-09-13 16:19:04
- * @LastEditTime: 2021-09-17 17:58:29
- * @FilePath: \warblerjs-guide\docs\version\README.md
--->
-
+---
+    sidebarDepth: 3
+---
 # 更新日志
 
 

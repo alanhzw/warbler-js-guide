@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:配置文件
  * @Date: 2021-09-13 15:29:43
- * @LastEditTime: 2021-09-14 17:30:41
+ * @LastEditTime: 2021-09-18 09:32:39
  * @FilePath: \warblerjs-guide\docs\.vuepress\config.js
  */
 
@@ -22,7 +22,7 @@ module.exports = {
     logo: '/images/favicon.png',
     nav,
     sidebar,
-    sidebarDepth: 3
+    sidebarDepth: 2
   },
   markdown: {
     // lineNumbers: true,
