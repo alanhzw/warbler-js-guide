@@ -43,6 +43,7 @@ module.exports = [
     collapsable: true,
     children: [
       ['date/dayOfYear', '获取指定日期是所在年份的第几天'],
+      ['date/getDayDiff', '获取两个日期之间以天为单位的差值'],
     ],
   },
 
