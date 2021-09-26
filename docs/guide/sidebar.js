@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-09-26 18:09:15
+ * @LastEditTime: 2021-09-26 18:13:50
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
@@ -43,7 +43,7 @@ module.exports = [
     collapsable: true,
     children: [
       ['date/dayOfYear', '获取指定日期是所在年份的第几天'],
-      ['date/getDayDiff', '获取两个日期之间以天为单位的差值'],
+      ['date/getDayDiff', '获取两个日期之间的差值'],
       ['date/isToday', '判断指定日期是不是今天'],
       ['date/isTomorrow', '判断指定日期是不是n天后'],
       ['date/isYesterday', '判断指定日期是不是n天前'],
