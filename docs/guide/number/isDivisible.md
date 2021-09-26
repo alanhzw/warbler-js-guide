@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:判断数字是否可以整除
  * @Date: 2021-09-15 11:19:03
- * @LastEditTime: 2021-09-16 18:22:50
+ * @LastEditTime: 2021-09-26 14:24:44
  * @FilePath: \warblerjs-guide\docs\guide\number\isDivisible.md
 -->
 # 判断数字是否可以整除
@@ -21,7 +21,7 @@ const result1 = isDivisible(dividend, divisor)
 
 ## 返回值
 
-**Boolean** ：`true` 可以整除 `false` 不可以整除。
+**Boolean** ：`true` 可以整除， `false` 不可以整除。
 
 
 ## 源码

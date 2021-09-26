@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:获取指定日期是所在年份的第几天
  * @Date: 2021-09-13 18:16:32
- * @LastEditTime: 2021-09-26 18:05:07
+ * @LastEditTime: 2021-09-18 11:41:07
  * @FilePath: \warblerjs-guide\docs\guide\date\dayOfYear.md
 -->
 # 获取指定日期是所在年份的第几天
@@ -11,7 +11,6 @@
 
 
 ```js
-import { dayOfYear } from 'warbler-js'
 const result = dayOfYear(date)
 ```
 
@@ -38,7 +37,6 @@ const dayOfYear = (date) => {
 
 
 ```js
-import { dayOfYear } from 'warbler-js'
 const result1 = dayOfYear()
 const result2 = dayOfYear("2021,9,15")
 const result3 = dayOfYear("2021-9-16")
