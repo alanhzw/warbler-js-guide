@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:判断指定日期是不是n天后
  * @Date: 2021-09-13 18:16:32
- * @LastEditTime: 2021-09-30 10:57:40
+ * @LastEditTime: 2021-09-30 11:01:43
  * @FilePath: \warblerjs-guide\docs\guide\date\isTomorrow.md
 -->
 # 判断指定日期是不是n天后
@@ -12,7 +12,7 @@
 
 ```js
 import { isTomorrow } from 'warbler-js'
-const result = isTomorrow(date, n = 1)
+const result = isTomorrow(date, n)
 ```
 
 ## 参数

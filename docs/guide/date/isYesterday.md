@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:判断指定日期是不是n天前
  * @Date: 2021-09-26 18:03:06
- * @LastEditTime: 2021-09-30 10:57:55
+ * @LastEditTime: 2021-09-30 11:01:39
  * @FilePath: \warblerjs-guide\docs\guide\date\isYesterday.md
 -->
 # 判断指定日期是不是n天前
@@ -12,7 +12,7 @@
 
 ```js
 import { isYesterday } from 'warbler-js'
-const result = isYesterday(date,  n = 1)
+const result = isYesterday(date,  n)
 ```
 
 ## 参数
