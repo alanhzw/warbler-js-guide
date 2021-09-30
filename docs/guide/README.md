@@ -14,5 +14,5 @@ npm i --save warbler-js
 
 ## 什么是 warbler-js
 
-`warbler-js` 参考了优秀的 Lodash ，完成了一个轻量级的 `JavaScript` 实用工具库。
+`warbler-js` 参考了优秀的 `Lodash` ，完成了一个轻量级的 `JavaScript` 实用工具库。
 

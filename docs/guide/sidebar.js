@@ -2,14 +2,14 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-09-26 18:13:50
+ * @LastEditTime: 2021-09-30 10:59:06
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
 module.exports = [
   ['', '文档'],
   {
-    title: '数组',
+    title: '数组(17)',
     collapsable: true,
     children: [
       ['array/arrWithoutDupli', '删除数组中的重复元素'],
@@ -32,14 +32,14 @@ module.exports = [
     ],
   },
   {
-    title: '布尔值',
+    title: '布尔值(1)',
     collapsable: true,
     children: [
       ['boolean/randomBoolean', '获得一个随机的布尔值'],
     ],
   },
   {
-    title: '日期',
+    title: '日期(5)',
     collapsable: true,
     children: [
       ['date/dayOfYear', '获取指定日期是所在年份的第几天'],
@@ -51,13 +51,13 @@ module.exports = [
   },
 
   {
-    title: '函数',
+    title: '函数(0)',
     collapsable: true,
     children: [
     ],
   },
   {
-    title: '常用方法',
+    title: '常用方法(4)',
     collapsable: true,
     children: [
       ['methods/imitateDelay', '模拟延迟'],
@@ -68,7 +68,7 @@ module.exports = [
     ],
   },
   {
-    title: '数字',
+    title: '数字(5)',
     collapsable: true,
     children: [
       ['number/getAverage', '求平均值'],
@@ -80,13 +80,13 @@ module.exports = [
     ],
   },
   {
-    title: '对象',
+    title: '对象(0)',
     collapsable: true,
     children: [
     ],
   },
   {
-    title: '字符串',
+    title: '字符串(5)',
     collapsable: true,
     children: [
       ['string/reverseString', '反转字符串'],
