@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-09-30 10:59:06
+ * @LastEditTime: 2021-09-30 11:04:06
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
@@ -32,13 +32,6 @@ module.exports = [
     ],
   },
   {
-    title: '布尔值(1)',
-    collapsable: true,
-    children: [
-      ['boolean/randomBoolean', '获得一个随机的布尔值'],
-    ],
-  },
-  {
     title: '日期(5)',
     collapsable: true,
     children: [
@@ -47,24 +40,6 @@ module.exports = [
       ['date/isToday', '判断指定日期是不是今天'],
       ['date/isTomorrow', '判断指定日期是不是n天后'],
       ['date/isYesterday', '判断指定日期是不是n天前'],
-    ],
-  },
-
-  {
-    title: '函数(0)',
-    collapsable: true,
-    children: [
-    ],
-  },
-  {
-    title: '常用方法(4)',
-    collapsable: true,
-    children: [
-      ['methods/imitateDelay', '模拟延迟'],
-      ['methods/loadScript', '异步加载script脚本'],
-      ['methods/getCurrentUrl', '获取当前页面的URL'],
-      ['methods/scrollToTop', '滚动到页面顶部'],
-
     ],
   },
   {
@@ -76,13 +51,6 @@ module.exports = [
       ['number/isDivisible', '判断数字是否可以整除'],
       ['number/randomInRange', '生成范围内的随机数'],
       ['number/randomIntegerInRange', '生成范围内的随机整数'],
-
-    ],
-  },
-  {
-    title: '对象(0)',
-    collapsable: true,
-    children: [
     ],
   },
   {
@@ -94,6 +62,41 @@ module.exports = [
       ['string/toUpperFirstLetter', '将字符串的首字母转换成大写字母'],
       ['string/toLowerFirstLetter', '将字符串的首字母转换成小写字母'],
       ['string/capitalizeWord', '将字符串中每个单词的首字母转为大写'],
+    ],
+  },
+  {
+    title: '正则(0)',
+    collapsable: true,
+    children: [
+    ],
+  },
+  {
+    title: '函数(0)',
+    collapsable: true,
+    children: [
+    ],
+  },
+  {
+    title: '对象(0)',
+    collapsable: true,
+    children: [
+    ],
+  },
+  {
+    title: '布尔值(1)',
+    collapsable: true,
+    children: [
+      ['boolean/randomBoolean', '获得一个随机的布尔值'],
+    ],
+  },
+  {
+    title: '常用方法(4)',
+    collapsable: true,
+    children: [
+      ['methods/imitateDelay', '模拟延迟'],
+      ['methods/loadScript', '异步加载script脚本'],
+      ['methods/getCurrentUrl', '获取当前页面的URL'],
+      ['methods/scrollToTop', '滚动到页面顶部'],
     ],
   },
 ];
