@@ -1,9 +1,9 @@
 /*
  * @Author: 一尾流莺
- * @Description:
+ * @Description:侧边栏
  * @Date: 2021-09-13 16:58:40
- * @LastEditTime: 2021-09-13 17:35:59
- * @FilePath: \vue-press\docs\.vuepress\sidebar.js
+ * @LastEditTime: 2021-10-08 09:55:13
+ * @FilePath: \warblerjs-guide\docs\.vuepress\sidebar.js
  */
 
 const sidebar = {
