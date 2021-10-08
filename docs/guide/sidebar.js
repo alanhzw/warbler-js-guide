@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-10-08 10:06:18
+ * @LastEditTime: 2021-10-08 10:24:59
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
@@ -73,33 +73,83 @@ module.exports = [
     title: '日期(5)',
     collapsable: true,
     children: [
-      ['date/dayOfYear', '获取指定日期是所在年份的第几天'],
-      ['date/getDayDiff', '获取两个日期之间的差值'],
-      ['date/isToday', '判断指定日期是不是今天'],
-      ['date/isTomorrow', '判断指定日期是不是n天后'],
-      ['date/isYesterday', '判断指定日期是不是n天前'],
+      {
+        title: '判断',
+        collapsable: false,
+        children: [
+          ['date/isToday', '判断指定日期是不是今天'],
+          ['date/isTomorrow', '判断指定日期是不是n天后'],
+          ['date/isYesterday', '判断指定日期是不是n天前'],
+        ],
+      },
+      {
+        title: '获取',
+        collapsable: false,
+        children: [
+          ['date/dayOfYear', '获取指定日期是所在年份的第几天'],
+          ['date/getDayDiff', '获取两个日期之间的差值'],
+        ],
+      },
+
     ],
   },
   {
     title: '数字(5)',
     collapsable: true,
     children: [
-      ['number/getAverage', '求平均值'],
-      ['number/isEvenNumber', '判断奇偶'],
-      ['number/isDivisible', '判断数字是否可以整除'],
-      ['number/randomInRange', '生成范围内的随机数'],
-      ['number/randomIntegerInRange', '生成范围内的随机整数'],
+      {
+        title: '判断',
+        collapsable: false,
+        children: [
+          ['number/isEvenNumber', '判断奇偶'],
+          ['number/isDivisible', '判断数字是否可以整除'],
+        ],
+      },
+      {
+        title: '计算',
+        collapsable: false,
+        children: [
+          ['number/getAverage', '求平均值'],
+        ],
+      },
+      {
+        title: '随机数',
+        collapsable: false,
+        children: [
+          ['number/randomInRange', '生成范围内的随机数'],
+          ['number/randomIntegerInRange', '生成范围内的随机整数'],
+        ],
+      },
     ],
   },
   {
     title: '字符串(5)',
     collapsable: true,
     children: [
-      ['string/reverseString', '反转字符串'],
-      ['string/alphabetical', '将字符串按字母顺序排列'],
-      ['string/toUpperFirstLetter', '将字符串的首字母转换成大写字母'],
-      ['string/toLowerFirstLetter', '将字符串的首字母转换成小写字母'],
-      ['string/capitalizeWord', '将字符串中每个单词的首字母转为大写'],
+      {
+        title: '排序',
+        collapsable: false,
+        children: [
+          ['string/alphabetical', '将字符串按字母顺序排列'],
+        ],
+      },
+      {
+        title: '转换',
+        collapsable: false,
+        children: [
+          ['string/toUpperFirstLetter', '将字符串的首字母转换成大写字母'],
+          ['string/toLowerFirstLetter', '将字符串的首字母转换成小写字母'],
+          ['string/capitalizeWord', '将字符串中每个单词的首字母转为大写'],
+        ],
+      },
+      {
+        title: '其它',
+        collapsable: false,
+        children: [
+          ['string/reverseString', '反转字符串'],
+        ],
+      },
+
     ],
   },
   {
