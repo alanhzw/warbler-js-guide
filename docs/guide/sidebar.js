@@ -2,189 +2,73 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-10-08 10:24:59
+ * @LastEditTime: 2021-10-08 10:52:24
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
+
+const arrayChildren = require('./sidebar/array');
+const methodsChildren = require('./sidebar/methods');
+const numberChildren = require('./sidebar/number');
+const regChildren = require('./sidebar/reg');
+const stringChildren = require('./sidebar/string');
+const booleanChildren = require('./sidebar/boolean');
+const functionChildren = require('./sidebar/function');
+const objectChildren = require('./sidebar/object');
+const dateChildren = require('./sidebar/date');
+
+// 计算每种分类的方法的总数量
+const getTotalBy = (arr, key) => arr.reduce((pre, cur) => {
+  if (cur[key]) {
+    return pre + cur[key].length;
+  }
+  return pre;
+}, 0);
 
 module.exports = [
   ['', '文档'],
   {
-    title: '数组(17)',
+    title: `数组(${getTotalBy(arrayChildren, 'children')})`,
     collapsable: true,
-    children: [
-      {
-        title: '去重',
-        collapsable: false,
-        children: [
-          ['array/arrWithoutDupli', '删除数组中的重复元素'],
-          ['array/arrObjectWithoutDupli', '删除对象数组中的重复元素'],
-        ],
-      },
-      {
-        title: '检测',
-        collapsable: false,
-        children: [
-          ['array/isAllPass', '检测所有元素是否符合要求'],
-
-        ],
-      },
-      {
-        title: '过滤',
-        collapsable: false,
-        children: [
-          ['array/filterUnique', '过滤数组中的唯一值'],
-          ['array/filterNoUnique', '过滤数组中的非唯一值'],
-        ],
-      },
-      {
-        title: '查找',
-        collapsable: false,
-        children: [
-          ['array/findObjectInArray', '根据对象的键值在数组中查找对象'],
-          ['array/minArray', '获取数组中指定个数的最小元素'],
-          ['array/maxArray', '获取数组中指定个数的最大元素'],
-          ['array/arrDifference', '获取两个数组之间不同的元素'],
-          ['array/arrSimilarity', '获取两个数组之间相同的元素'],
-          ['array/getDifferenceFrom', '获取数组二相对于数组一不同的元素'],
-
-        ],
-      },
-      {
-        title: '计算',
-        collapsable: false,
-        children: [
-          ['array/countFrequency', '计算数组中元素的出现次数'],
-          ['array/countObjFrequency', '计算对象数组中某个属性值的出现次数'],
-          ['array/averageBy', '计算对象数组指定健的平均值'],
-          ['array/getTotal', '计算数组元素的总和'],
-          ['array/getTotalBy', '计算对象数组某个属性值的总和'],
-        ],
-      },
-      {
-        title: '其它',
-        collapsable: false,
-        children: [
-          ['array/shuffleArr', '随机化数组元素的顺序'],
-        ],
-      },
-    ],
+    children: arrayChildren,
   },
   {
-    title: '日期(5)',
+    title: `日期(${getTotalBy(dateChildren, 'children')})`,
     collapsable: true,
-    children: [
-      {
-        title: '判断',
-        collapsable: false,
-        children: [
-          ['date/isToday', '判断指定日期是不是今天'],
-          ['date/isTomorrow', '判断指定日期是不是n天后'],
-          ['date/isYesterday', '判断指定日期是不是n天前'],
-        ],
-      },
-      {
-        title: '获取',
-        collapsable: false,
-        children: [
-          ['date/dayOfYear', '获取指定日期是所在年份的第几天'],
-          ['date/getDayDiff', '获取两个日期之间的差值'],
-        ],
-      },
-
-    ],
+    children: dateChildren,
   },
   {
-    title: '数字(5)',
+    title: `数字(${getTotalBy(numberChildren, 'children')})`,
     collapsable: true,
-    children: [
-      {
-        title: '判断',
-        collapsable: false,
-        children: [
-          ['number/isEvenNumber', '判断奇偶'],
-          ['number/isDivisible', '判断数字是否可以整除'],
-        ],
-      },
-      {
-        title: '计算',
-        collapsable: false,
-        children: [
-          ['number/getAverage', '求平均值'],
-        ],
-      },
-      {
-        title: '随机数',
-        collapsable: false,
-        children: [
-          ['number/randomInRange', '生成范围内的随机数'],
-          ['number/randomIntegerInRange', '生成范围内的随机整数'],
-        ],
-      },
-    ],
+    children: numberChildren,
   },
   {
-    title: '字符串(5)',
+    title: `字符串(${getTotalBy(stringChildren, 'children')})`,
     collapsable: true,
-    children: [
-      {
-        title: '排序',
-        collapsable: false,
-        children: [
-          ['string/alphabetical', '将字符串按字母顺序排列'],
-        ],
-      },
-      {
-        title: '转换',
-        collapsable: false,
-        children: [
-          ['string/toUpperFirstLetter', '将字符串的首字母转换成大写字母'],
-          ['string/toLowerFirstLetter', '将字符串的首字母转换成小写字母'],
-          ['string/capitalizeWord', '将字符串中每个单词的首字母转为大写'],
-        ],
-      },
-      {
-        title: '其它',
-        collapsable: false,
-        children: [
-          ['string/reverseString', '反转字符串'],
-        ],
-      },
-
-    ],
+    children: stringChildren,
   },
   {
-    title: '正则(0)',
+    title: `正则(${getTotalBy(regChildren, 'children')})`,
     collapsable: true,
-    children: [
-    ],
+    children: regChildren,
   },
   {
-    title: '函数(0)',
+    title: `函数(${getTotalBy(functionChildren, 'children')})`,
     collapsable: true,
-    children: [
-    ],
+    children: functionChildren,
   },
   {
-    title: '对象(0)',
+    title: `对象(${getTotalBy(objectChildren, 'children')})`,
     collapsable: true,
-    children: [
-    ],
+    children: objectChildren,
   },
   {
-    title: '布尔值(1)',
+    title: `布尔值(${getTotalBy(booleanChildren, 'children')})`,
     collapsable: true,
-    children: [
-      ['boolean/randomBoolean', '获得一个随机的布尔值'],
-    ],
+    children: booleanChildren,
   },
   {
-    title: '常用方法(4)',
+    title: `常用方法(${methodsChildren.length})`,
     collapsable: true,
-    children: [
-      ['methods/imitateDelay', '模拟延迟'],
-      ['methods/loadScript', '异步加载script脚本'],
-      ['methods/getCurrentUrl', '获取当前页面的URL'],
-      ['methods/scrollToTop', '滚动到页面顶部'],
-    ],
+    children: methodsChildren,
   },
 ];
