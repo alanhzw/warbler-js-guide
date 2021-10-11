@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-09-13 17:03:55
- * @LastEditTime: 2021-10-08 10:52:24
+ * @LastEditTime: 2021-10-09 17:52:37
  * @FilePath: \warblerjs-guide\docs\guide\sidebar.js
  */
 
@@ -67,7 +67,7 @@ module.exports = [
     children: booleanChildren,
   },
   {
-    title: `常用方法(${methodsChildren.length})`,
+    title: `常用方法(${getTotalBy(methodsChildren, 'children')})`,
     collapsable: true,
     children: methodsChildren,
   },
