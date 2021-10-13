@@ -3,9 +3,25 @@
 ---
 # 更新日志
 
+## 🕒 2021-10-13
+
+#### 🚀 版本号 1.10.3
+
+#### 📣 更新内容
+
+- 🔥 新增 `easyTelReg`
+- 🔥 新增 `strictTelReg`
+- 🔥 新增 `complexTelReg`
+- 🔥 新增 `integerReg`
+- 🔥 新增 `noZeroIntegerReg`
+- 🔥 新增 `zeroPositiveIntegerReg`
+- 🔥 新增 `positiveIntegerReg`
+- 🔥 新增 `zeroNegativeIntegerReg`
+- 🔥 新增 `negativeIntegerReg`
+
 ## 🕒 2021-10-08
 
-#### 🚀 版本号 1.0.10
+#### 🚀 版本号 1.10.1
 
 #### 📣 更新内容
 
@@ -13,102 +29,102 @@
 
 ## 🕒 2021-09-26
 
-#### 🚀 版本号 1.0.9
+#### 🚀 版本号 1.9.8
 
 #### 📣 更新内容
 
-- 🔥 新增 `isToday` 方法
-- 🔥 新增 `isTomorrow` 方法
-- 🔥 新增 `isYesterday` 方法
-- 💧 修复 `getDayDiff` 方法，支持获取两个日期之间不同单位的差值
+- 🔥 新增 `isToday`
+- 🔥 新增 `isTomorrow`
+- 🔥 新增 `isYesterday`
+- 💧 修复 `getDayDiff` ，支持获取两个日期之间不同单位的差值
 
 
 ## 🕒 2021-09-18
 
-#### 🚀 版本号 1.0.8
+#### 🚀 版本号 1.9.7
 
 #### 📣 更新内容
 
-- 🔥 新增 `getDayDiff` 方法
-- 💧 修复 `dayOfYear` 方法，参数支持 `yyyy-mm-dd` 格式
+- 🔥 新增 `getDayDiff`
+- 💧 修复 `dayOfYear` ，参数支持 `yyyy-mm-dd` 格式
 
 
 ## 🕒 2021-09-17
 
-#### 🚀 版本号 1.0.7
+#### 🚀 版本号 1.9.6
 
 #### 📣 更新内容
 
-- 🔥 新增 `getCurrentUrl` 方法
-- 🔥 新增 `getTotal` 方法
-- 🔥 新增 `getTotalBy` 方法
-- 🔥 新增 `alphabetical` 方法
-- 🔥 新增 `arrDifference` 方法
-- 🔥 新增 `arrSimilarity` 方法
-- 🔥 新增 `getDifferenceFrom` 方法
-- 🔥 新增 `scrollToTop` 方法
-- 🔥 新增 `randomIntegerInRange` 方法
-- 🔥 新增 `randomInRange` 方法
-- 🔥 新增 `shuffleArr` 方法
+- 🔥 新增 `getCurrentUrl`
+- 🔥 新增 `getTotal`
+- 🔥 新增 `getTotalBy`
+- 🔥 新增 `alphabetical`
+- 🔥 新增 `arrDifference`
+- 🔥 新增 `arrSimilarity`
+- 🔥 新增 `getDifferenceFrom`
+- 🔥 新增 `scrollToTop`
+- 🔥 新增 `randomIntegerInRange`
+- 🔥 新增 `randomInRange`
+- 🔥 新增 `shuffleArr`
 
 
 ## 🕒 2021-09-16
 
-#### 🚀 版本号 1.0.6
+#### 🚀 版本号 1.9.5
 
 #### 📣 更新内容
 
-- 🔥 新增 `capitalizeWord` 方法
-- 🔥 新增 `averageBy` 方法
-- 🔥 新增 `isAllPass` 方法
-- 🔥 新增 `minArray` 方法
-- 🔥 新增 `maxArray` 方法
+- 🔥 新增 `capitalizeWord`
+- 🔥 新增 `averageBy`
+- 🔥 新增 `isAllPass`
+- 🔥 新增 `minArray`
+- 🔥 新增 `maxArray`
 
 
 ## 🕒 2021-09-15
 
-#### 🚀 版本号 1.0.5
+#### 🚀 版本号 1.9.4
 
 #### 📣 更新内容
 
-- 🔥 新增 `countFrequency` 方法
-- 🔥 新增 `countObjFrequency` 方法
-- 🔥 新增 `filterUnique` 方法
-- 🔥 新增 `filterNoUnique` 方法
-- 🔥 新增 `isDivisible` 方法
+- 🔥 新增 `countFrequency`
+- 🔥 新增 `countObjFrequency`
+- 🔥 新增 `filterUnique`
+- 🔥 新增 `filterNoUnique`
+- 🔥 新增 `isDivisible`
 
 
 
 ## 🕒 2021-09-14
 
-#### 🚀 版本号 1.0.4
+#### 🚀 版本号 1.9.3
 
 #### 📣更新内容
 
-- 🔥 新增 `toLowerFirstLetter` 方法
-- 🔥 新增 `toUpperFirstLetter` 方法
-- 🔥 新增 `dayOfYear` 方法
-- 🔥 新增 `loadScript` 方法
+- 🔥 新增 `toLowerFirstLetter`
+- 🔥 新增 `toUpperFirstLetter`
+- 🔥 新增 `dayOfYear`
+- 🔥 新增 `loadScript`
 
 ## 🕒 2021-09-13
 
-#### 🚀 版本号 1.0.3
+#### 🚀 版本号 1.9.2
 
 #### 📣 更新内容
 
-- 🔥 新增 `arrWithoutDupli` 方法
-- 🔥 新增 `arrObjectWithoutDupli` 方法
-- 🔥 新增 `findObjectInArray` 方法
-- 🔥 新增 `reverseString` 方法
-- 🔥 新增 `getAverage` 方法
-- 🔥 新增 `isEvenNumber` 方法
-- 🔥 新增 `randomBoolean` 方法
-- 🔥 新增 `imitateDelay` 方法
+- 🔥 新增 `arrWithoutDupli`
+- 🔥 新增 `arrObjectWithoutDupli`
+- 🔥 新增 `findObjectInArray`
+- 🔥 新增 `reverseString`
+- 🔥 新增 `getAverage`
+- 🔥 新增 `isEvenNumber`
+- 🔥 新增 `randomBoolean`
+- 🔥 新增 `imitateDelay`
 
 
 ## 🕒 2021-09-12
 
-#### 🚀 版本号 1.0.0
+#### 🚀 版本号 1.9.1
 
 #### 📣 更新内容
 
