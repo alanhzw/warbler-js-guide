@@ -1,14 +1,14 @@
 <!--
  * @Author: 一尾流莺
- * @Description:车牌号（新能源）
+ * @Description:车牌号（非新能源）
  * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2021-10-13 18:55:12
+ * @LastEditTime: 2021-10-13 18:57:18
  * @FilePath: \warblerjs-guide\docs\guide\reg\carsReg.md
 -->
 
-# 车牌号（新能源）
+# 车牌号（非新能源）
 
-验证车牌号，新能源。
+验证车牌号，非新能源。
 
 ## 语法
 
@@ -29,7 +29,7 @@ const result = carsReg(value);
 
 ```js
 const carsReg = (value) => {
-  const reg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z](?:((\d{5}[A-HJK])|([A-HJK][A-HJ-NP-Z0-9][0-9]{4}))|[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳])$/;
+  const reg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z][A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳]$/;
   return reg.test(value);
 };
 ```
@@ -38,8 +38,8 @@ const carsReg = (value) => {
 
 ```js
 import { carsReg } from 'warbler-js';
-const result1 = carsReg('京AD80234')
-const result2 = carsReg('辽D46234F')
+const result1 = carsReg('京A00234')
+const result2 = carsReg('黑D46234')
 
 console.log(result1) // true
 console.log(result2) // true
