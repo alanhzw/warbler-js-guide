@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/main.jpg
+heroImage: /images/main.png
 heroText: warbler-js
 tagline: 一个 JavaScript 实用工具库
 actionText: 点击阅读 →
