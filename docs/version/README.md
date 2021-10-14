@@ -3,21 +3,73 @@
 ---
 # 更新日志
 
-## 🕒 2021-10-13
+## 🕒 2021-10-14
 
 #### 🚀 版本号 1.10.3
 
 #### 📣 更新内容
 
-- 🔥 新增 `easyTelReg`
-- 🔥 新增 `strictTelReg`
-- 🔥 新增 `complexTelReg`
-- 🔥 新增 `integerReg`
-- 🔥 新增 `noZeroIntegerReg`
-- 🔥 新增 `zeroPositiveIntegerReg`
-- 🔥 新增 `positiveIntegerReg`
-- 🔥 新增 `zeroNegativeIntegerReg`
-- 🔥 新增 `negativeIntegerReg`
+  - 🔥 新增 `integerReg`
+  - 🔥 新增 `noZeroIntegerReg`
+  - 🔥 新增 `zeroPositiveIntegerReg`
+  - 🔥 新增 `positiveIntegerReg`
+  - 🔥 新增 `zeroNegativeIntegerReg`
+  - 🔥 新增 `negativeIntegerReg`
+  - 🔥 新增 `currencyReg`
+  - 🔥 新增 `moneyReg`
+  - 🔥 新增 `numberReg`
+  - 🔥 新增 `easyTelReg`
+  - 🔥 新增 `complexTelReg`
+  - 🔥 新增 `strictTelReg`
+  - 🔥 新增 `bankReg`
+  - 🔥 新增 `carsReg`
+  - 🔥 新增 `newCarsReg`
+  - 🔥 新增 `allCarsReg`
+  - 🔥 新增 `landlineReg`
+  - 🔥 新增 `idFirstReg`
+  - 🔥 新增 `idSecondReg`
+  - 🔥 新增 `idReg`
+  - 🔥 新增 `idHongKongReg`
+  - 🔥 新增 `idMacaoReg`
+  - 🔥 新增 `idTaiwanReg`
+  - 🔥 新增 `passportReg`
+  - 🔥 新增 `qqReg`
+  - 🔥 新增 `wechatReg`
+  - 🔥 新增 `trainReg`
+  - 🔥 新增 `imeiReg`
+  - 🔥 新增 `codsReg`
+  - 🔥 新增 `strictCodsReg`
+  - 🔥 新增 `chineseNameReg`
+  - 🔥 新增 `englishNameReg`
+  - 🔥 新增 `emailReg`
+  - 🔥 新增 `accountReg`
+  - 🔥 新增 `chineseReg`
+  - 🔥 新增 `englishReg`
+  - 🔥 新增 `lowercaseReg`
+  - 🔥 新增 `uppercaseReg`
+  - 🔥 新增 `nlReg`
+  - 🔥 新增 `passwordReg`
+  - 🔥 新增 `usernameReg`
+  - 🔥 新增 `postalReg`
+  - 🔥 新增 `ncReg`
+  - 🔥 新增 `noLetterReg`
+  - 🔥 新增 `nlBothReg`
+  - 🔥 新增 `achievementReg`
+  - 🔥 新增 `urlReg`
+  - 🔥 新增 `urlWithPortReg`
+  - 🔥 新增 `subnetReg`
+  - 🔥 新增 `uuidReg`
+  - 🔥 新增 `editionReg`
+  - 🔥 新增 `videoUrlReg`
+  - 🔥 新增 `imgUrlReg`
+  - 🔥 新增 `dateHmsReg`
+  - 🔥 新增 `hmsReg`
+  - 🔥 新增 `baseReg`
+  - 🔥 新增 `macReg`
+  - 🔥 新增 `colorReg`
+  - 🔥 新增 `ipv4Reg`
+  - 🔥 新增 `ymdReg`
+  - 🔥 新增 `ymdhmsReg`
 
 ## 🕒 2021-10-08
 

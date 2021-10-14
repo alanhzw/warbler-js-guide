@@ -2,13 +2,13 @@
  * @Author: 一尾流莺
  * @Description:子网掩码
  * @Date: 2021-09-13 18:18:23
- * @LastEditTime: 2021-10-14 09:44:13
- * @FilePath: \warblerjs-guide\docs\guide\form\subnetReg.md
+ * @LastEditTime: 2021-10-14 10:03:57
+ * @FilePath: \warblerjs-guide\docs\guide\reg\subnetReg.md
 -->
 
 # 子网掩码
 
-验证名字，纯 `中文`，允许连字符 `·`。
+验证子网掩码的十进制数值。
 
 ## 语法
 
