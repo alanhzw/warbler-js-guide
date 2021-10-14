@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:正则表达式
  * @Date: 2021-10-08 10:30:04
- * @LastEditTime: 2021-10-14 09:39:34
+ * @LastEditTime: 2021-10-14 09:52:15
  * @FilePath: \warblerjs-guide\docs\guide\sidebar\reg.js
  */
 module.exports = [
@@ -74,6 +74,21 @@ module.exports = [
     title: '网络',
     collapsable: false,
     children: [
+      ['reg/urlReg', '网址'],
+      ['reg/urlWithPortReg', '必须带端口号的网址'],
+      ['reg/subnetReg', '子网掩码'],
+      ['reg/uuidReg', 'GUID/UUID'],
+      ['reg/editionReg', '版本号'],
+      ['reg/videoUrlReg', '视频链接地址'],
+      ['reg/imgUrlReg', '图片链接地址'],
+      ['reg/dateHmsReg', '24小时制时间'],
+      ['reg/hmsReg', '12小时制时间'],
+      ['reg/baseReg', 'base64格式'],
+      ['reg/macReg', 'mac地址'],
+      ['reg/colorReg', '16进制颜色'],
+      ['reg/ipv4Reg', 'ip-v4'],
+      ['reg/ymdReg', '日期 YYYY-MM-DD'],
+      ['reg/ymdhmsReg', '日期 YYYY-MM-DD hh:mm:ss'],
     ],
   },
 ];
