@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:正则表达式
  * @Date: 2021-10-08 10:30:04
- * @LastEditTime: 2021-10-13 19:14:00
+ * @LastEditTime: 2021-10-14 09:39:34
  * @FilePath: \warblerjs-guide\docs\guide\sidebar\reg.js
  */
 module.exports = [
@@ -52,6 +52,22 @@ module.exports = [
     title: '表单',
     collapsable: false,
     children: [
+      ['reg/chineseNameReg', '中文名字'],
+      ['reg/englishNameReg', '英文名字'],
+      ['reg/emailReg', '邮箱'],
+      ['reg/chineseReg', '中文'],
+      ['reg/englishReg', '英文'],
+      ['reg/lowercaseReg', '小写英文'],
+      ['reg/uppercaseReg', '大写英文'],
+      ['reg/nlReg', '数字和字母'],
+      ['reg/ncReg', '中文和数字'],
+      ['reg/nlBothReg', '同时含有数字和英文字母'],
+      ['reg/passwordReg', '密码强度校验'],
+      ['reg/usernameReg', '用户名校验'],
+      ['reg/accountReg', '帐号是否合法'],
+      ['reg/postalReg', '邮政编码'],
+      ['reg/noLetterReg', '不能包含字母'],
+      ['reg/achievementReg', '考试分数(150分)'],
     ],
   },
   {
