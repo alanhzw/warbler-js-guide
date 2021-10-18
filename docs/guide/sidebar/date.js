@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-10-08 10:29:32
- * @LastEditTime: 2021-10-08 10:34:57
+ * @LastEditTime: 2021-10-18 11:37:54
  * @FilePath: \warblerjs-guide\docs\guide\sidebar\date.js
  */
 module.exports = [
@@ -13,6 +13,7 @@ module.exports = [
       ['date/isToday', '判断指定日期是不是今天'],
       ['date/isTomorrow', '判断指定日期是不是n天后'],
       ['date/isYesterday', '判断指定日期是不是n天前'],
+      ['date/isScheduled', '判断是否达到指定时间'],
     ],
   },
   {
