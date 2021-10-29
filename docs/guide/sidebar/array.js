@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:
  * @Date: 2021-10-08 10:29:12
- * @LastEditTime: 2021-10-08 10:30:58
+ * @LastEditTime: 2021-10-29 11:29:06
  * @FilePath: \warblerjs-guide\docs\guide\sidebar\array.js
  */
 module.exports = [
@@ -52,6 +52,15 @@ module.exports = [
       ['array/averageBy', '计算对象数组指定健的平均值'],
       ['array/getTotal', '计算数组元素的总和'],
       ['array/getTotalBy', '计算对象数组某个属性值的总和'],
+    ],
+  },
+  {
+    title: '移除',
+    collapsable: false,
+    children: [
+      ['array/arrRemoveEle', '根据元素值移除数组的元素'],
+      ['array/arrRemoveFunEle', '根据函数名称移除函数数组的元素'],
+      ['array/arrRemoveObjEle', '根据对象数组的属性值移除数组的元素'],
     ],
   },
   {
