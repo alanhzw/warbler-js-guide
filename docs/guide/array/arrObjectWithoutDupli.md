@@ -2,7 +2,7 @@
  * @Author: 一尾流莺
  * @Description:删除对象数组中的重复元素
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-09-16 18:20:26
+ * @LastEditTime: 2021-10-29 15:35:08
  * @FilePath: \warblerjs-guide\docs\guide\array\arrObjectWithoutDupli.md
 -->
 
@@ -27,6 +27,7 @@ const result = arrObjectWithoutDupli(arr，key)
 ## 源码
 
 ```js
+const obj = {};
 const arrObjectWithoutDupli = (arr, key) =>
   arr.reduce((cur, next) => {
     if (!obj[next[key]]) {

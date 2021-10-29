@@ -1,13 +1,13 @@
 <!--
  * @Author: 一尾流莺
- * @Description:根据元素值移除数组的元素
+ * @Description:根据对象数组的属性值移除数组的元素
  * @Date: 2021-09-13 17:26:25
- * @LastEditTime: 2021-10-29 11:24:34
+ * @LastEditTime: 2021-10-29 11:56:47
  * @FilePath: \warblerjs-guide\docs\guide\array\arrRemoveObjEle.md
 -->
 
 
-# 根据元素值移除数组的元素
+# 根据对象数组的属性值移除数组的元素
 
 ## 语法
 
